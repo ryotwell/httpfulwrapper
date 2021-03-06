@@ -23,5 +23,5 @@ $Http = new HttpfulWrapper;
 
 $res = $Http->get('https://ytryo.my.id/api/animeku/search?q=naruto')->send();
 
-var_dump($res);
+var_dump($res->body);
 ```
