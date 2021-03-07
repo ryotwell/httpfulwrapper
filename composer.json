@@ -2,10 +2,10 @@
     "name": "ryodevz/httpfulwrapper",
     "description": "A Wrapper class for httpful library to make it easy to use",
     "type": "library",
+    "license": "MIT",
     "require": {
         "nategood/httpful": "^0.3.2"
     },
-    "license": "MIT",
     "authors": [
         {
             "name": "RyoDev",
@@ -13,8 +13,6 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "Ryodevz\\": "src/"
-        }
+        "psr-4": {"Ryodevz\\": "src/"}
     }
 }
