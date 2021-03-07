@@ -4,21 +4,20 @@
 
 ## Features
 
-- get request
-- post request
-- put request
+- Get request
+- Post request
+- Put request
 
 ## Installing httpfulwrapper
 
-The recommended way to install httpfulwrapper is through
-[Composer](https://getcomposer.org/).
-
+The recommended way to install httpfulwrapper is through [Composer](https://getcomposer.org/).
 ```bash
 > composer require ryodevz/httpfulwrapper
 ```
 
 ### Example usage
-```
+
+```php
 $Http = new HttpfulWrapper;
 
 $res = $Http->get('https://ytryo.my.id/api/animeku/search?q=naruto')->send();
