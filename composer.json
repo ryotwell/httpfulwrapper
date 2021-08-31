@@ -1,6 +1,6 @@
 {
     "name": "ryodevz/httpfulwrapper",
-    "description": "A Wrapper class for httpful library to make it easy to use",
+    "description": "A Wrapper class for httpful library to make it easy to use.",
     "type": "library",
     "license": "MIT",
     "require": {
@@ -13,6 +13,12 @@
         }
     ],
     "autoload": {
-        "psr-4": {"Ryodevz\\": "src/"}
-    }
+        "psr-4": {
+            "Ryodevz\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
 }

@@ -1,21 +1,23 @@
 <?php
 
-namespace Ryodevz;
+namespace Ryodevz\HttpfulWrapper;
 
-class HttpfulWrapper
+use Httpful\Request;
+
+class Http
 {
     public static function get($uri, $mime = null)
     {
-        return \Httpful\Request::get($uri, $mime);
+        return Request::get($uri, $mime);
     }
 
     public static function post($uri, $payload = null, $mime = null)
     {
-        return \Httpful\Request::post($uri, $payload, $mime);
+        return Request::post($uri, $payload, $mime);
     }
 
     public static function put($uri, $payload = null, $mime = null)
     {
-        return \Httpful\Request::put($uri, $payload, $mime);
+        return Request::put($uri, $payload, $mime);
     }
 }
