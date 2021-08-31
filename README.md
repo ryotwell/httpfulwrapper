@@ -52,15 +52,15 @@ var_dump($response->body);
 
 ### Mimes
 
-| Mime class     | Type                                |
-| -------------- | ----------------------------------- |
-| `Mime::JSON`   | `application/json`                  |
-| `Mime::XML`    | `application/xml`                   |
-| `Mime::XHTML`  | ` application/html+xml`             |
-| `Mime::FORM`   | `application/x-www-form-urlencoded` |
-| `Mime::UPLOAD` | `multipart/form-data`               |
-| `Mime::PLAIN`  | `text/plain`                        |
-| `Mime::JS`     | `text/javascript`                   |
-| `Mime::HTML`   | `text/html`                         |
-| `Mime::YAML`   | `application/x-yaml`                |
-| `Mime::CSV`    | `text/csv`                          |
+| Mime class     | Type                              |
+| -------------- | --------------------------------- |
+| `Mime::JSON`   | application/json                  |
+| `Mime::XML`    | application/xml                   |
+| `Mime::XHTML`  | application/html+xml              |
+| `Mime::FORM`   | application/x-www-form-urlencoded |
+| `Mime::UPLOAD` | multipart/form-data               |
+| `Mime::PLAIN`  | text/plain                        |
+| `Mime::JS`     | text/javascript                   |
+| `Mime::HTML`   | text/html                         |
+| `Mime::YAML`   | application/x-yaml                |
+| `Mime::CSV`    | text/csv                          |
